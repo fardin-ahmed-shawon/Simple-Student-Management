@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body {
+    background-color: #00aeff;
+}
+
+section {
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    width: 30%;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container2 {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h1 {
+    font-size: 35px;
+}
+h3 {
+    margin-left: 13%; 
+    text-align: left;
+}
+
+input {
+    font-size: 15px;
+    width: 70%;
+    margin: 10px;
+    padding: 10px;
+}
+
+#btn {
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: #00aeff;
+}
+#btn:hover {
+    cursor: pointer;
+    background-color: #1496d3;
+}
+
+td,th {
+    padding: 10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.btn1 {
+    background: #00cc99;
+}
+.btn1:hover {
+    background: #00b386;
+}
+.btn2 {
+    background: #ff3300;
+}
+.btn2:hover {
+    background: #cc2900;
+}
+
+
+/* For Responsive Design */
+@media only screen and (max-width: 1500px) {
+    .container {
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 70%;
+        border-radius: 0px;
+    }
+}
